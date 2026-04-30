@@ -13,7 +13,7 @@ This module introduces immersive, high-stakes criminal interactions between play
 To enhance the roleplay (RP) ecosystem by providing a scripted, synchronized method for "highwayman" and "thief" interactions. This system replaces clunky manual gold transfers with a secure, server-validated process that ensures fairness and prevents combat logging during crimes.
 
 ## Functionality
-1. Overt Robbery (/rob)
+**1. Overt Robbery (/rob)**
    
 	Designed for "Stand and Deliver" roleplay scenarios where a player is physically threatened.
 
@@ -31,7 +31,8 @@ To enhance the roleplay (RP) ecosystem by providing a scripted, synchronized met
 
 		If the victim resists, a global message broadcasts the conflict, initiating PvP.
 
-3. Covert Pickpocketing (/pickpocket)
+**2. Covert Pickpocketing (/pickpocket)**
+   
 	Designed for stealth-focused characters to lift gold without immediate detection.
 
 	**Trigger:** Player types /pickpocket in immediate proximity to a target.
