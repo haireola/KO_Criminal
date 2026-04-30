@@ -59,4 +59,5 @@ Dependencies
 	Sync Logic: The system includes a "Drift Check." 
 	If a player initiates a command but the target moves 
 	beyond the allowed units before the menu selection is finished, the action is cancelled.
-	Scaling: (Recommended) Developers can easily swap the static roll <= 7 in the pickpocket logic for a check against the player's Pickpocket skill actor value.
+	Scaling: (Recommended) Developers can easily swap the static roll <= 7 in the pickpocket 
+	logic for a check against the player's Pickpocket skill actor value.
