@@ -1,6 +1,6 @@
 # KO_Criminal
 **NOTE:**
-This is likely not a functional mod - it's intended to serve as an outline of the functionality of the mod only.
+This is not a functional/complete mod - it's intended to serve as an outline of the functionality of the mod only.
 
 **Keizaal Online: Criminal Activity Expansion**
 Player-to-Player Robbery & Pickpocketing System
