@@ -51,14 +51,10 @@ Dependencies
 
 ## Development Notes
 
-	**Server Logic:** Place CriminalSystems.ts into your server's src/modules/ directory.
-
-	**Client Assets:** Add KO_CriminalUI.psc to your build pipeline.
-
-	**ESP Record:** In KeizaalContent.esp, create a Book record with the ID TheftNote to serve as the evidence item.
-	
-	**Security:** All gold math and item transfers are handled Server-Side. This prevents clients from "spoofing" gold amounts or duplicating currency.
-
-	**Sync Logic:** The system includes a "Drift Check." If a player initiates a command but the target moves beyond the allowed units before the menu selection is finished, the action is cancelled.
+	Server Logic: Place CriminalSystems.ts into your server's src/modules/ directory.
+	Client Assets: Add KO_CriminalUI.psc to your build pipeline.
+	ESP Record: In KeizaalContent.esp, create a Book record with the ID TheftNote to serve as the evidence item.
+	Security: All gold math and item transfers are handled Server-Side. This prevents clients from "spoofing" gold amounts or duplicating currency.
+	Sync Logic: The system includes a "Drift Check." If a player initiates a command but the target moves beyond the allowed units before the menu selection is finished, the action is cancelled.
 
 	**Scaling:** (Recommended) Developers can easily swap the static roll <= 7 in the pickpocket logic for a check against the player's Pickpocket skill actor value.
