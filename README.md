@@ -11,52 +11,38 @@ To enhance the roleplay (RP) ecosystem by providing a scripted, synchronized met
 
 ## Functionality
 1. Overt Robbery (/rob)
-Designed for "Stand and Deliver" roleplay scenarios where a player is physically threatened.
+	Designed for "Stand and Deliver" roleplay scenarios where a player is physically threatened.
+	Trigger: Player types /rob in close proximity to another player.
+	Distance: Must be face-to-face (within 150 units).
 
-Trigger: Player types /rob in close proximity to another player.
-
-Distance: Must be face-to-face (within 150 units).
-
-Mechanism:
-
-The Robber selects a target from a nearby-player dropdown.
-
-The Victim receives a UI Popup: "Yield and Pay" or "Resist and Fight."
-
-If the victim yields, a random 1% to 10% of their gold is transferred to the robber.
-
-If the victim resists, a global message broadcasts the conflict, initiating PvP.
+	Mechanism:
+	The Robber selects a target from a nearby-player dropdown.
+	The Victim receives a UI Popup: "Yield and Pay" or "Resist and Fight."
+	If the victim yields, a random 1% to 10% of their gold is transferred to the robber.
+	If the victim resists, a global message broadcasts the conflict, initiating PvP.
 
 2. Covert Pickpocketing (/pickpocket)
-Designed for stealth-focused characters to lift gold without immediate detection.
+	Designed for stealth-focused characters to lift gold without immediate detection.
 
-Trigger: Player types /pickpocket in immediate proximity to a target.
+	Trigger: Player types /pickpocket in immediate proximity to a target.
+	Distance: Must be in arm's reach (within 80 units).
 
-Distance: Must be in arm's reach (within 80 units).
-
-Mechanism:
-
-The server rolls a d10.
-
-Failure (1-7): The theft fails. The victim is notified: "You feel a hand in your pocket!"
-
-Success (8-10): Silent transfer of 1% to 10% of the victim's gold.
+	Mechanism:
+	The server rolls a d10.
+	Failure (1-7): The theft fails. The victim is notified: "You feel a hand in your pocket!"
+	Success (8-10): Silent transfer of 1% to 10% of the victim's gold.
 
 The Evidence: On a successful theft, the victim silently receives an item: "Torn Scrap of Paper." When read, it informs them they have lost gold, allowing for delayed RP discovery.
 
 ## Technical Implementation
 Dependencies
 SkyMP Server: Core networking framework.
-
 UI Extensions: Required for the UIMessageBox and UIListMenu client-side interfaces.
-
 Keizaal Online Content & Patches: To host the custom "Evidence Note" item record.
 
 Installation
 Server Logic: Place CriminalSystems.ts into your server's src/modules/ directory.
-
 Client Assets: Add KO_CriminalUI.psc to your build pipeline.
-
 ESP Record: In KeizaalContent.esp, create a Book record with the ID TheftNote to serve as the evidence item.
 
 Compilation
