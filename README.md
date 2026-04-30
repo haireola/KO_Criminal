@@ -21,13 +21,13 @@ Designed for "Stand and Deliver" roleplay scenarios where a player is physically
 Trigger: Player types /rob in close proximity to another player.
 Distance: Must be face-to-face (within 150 units).
 Mechanism:
-	The Robber selects a target from a nearby-player dropdown.
-	
-	The Victim receives a UI Popup: "Yield and Pay" or "Resist and Fight."
-	
-	If the victim yields, a random 1% to 10% of their gold is transferred to the robber.
-	
-	If the victim resists, a global message broadcasts the conflict, initiating PvP.
+The Robber selects a target from a nearby-player dropdown.
+
+The Victim receives a UI Popup: "Yield and Pay" or "Resist and Fight."
+
+If the victim yields, a random 1% to 10% of their gold is transferred to the robber.
+
+If the victim resists, a global message broadcasts the conflict, initiating PvP.
 
 **2. Covert Pickpocketing (/pickpocket)**
    
