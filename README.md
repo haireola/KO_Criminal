@@ -23,11 +23,8 @@ Distance: Must be face-to-face (within 150 units).
 Mechanism:
 
 1. The Robber selects a target from a nearby-player dropdown.
-
 2. The Victim receives a UI Popup: "Yield and Pay" or "Resist and Fight."
-
 3. If the victim yields, a random 1% to 10% of their gold is transferred to the robber.
-
 4. If the victim resists, a global message broadcasts the conflict, initiating PvP.
 
 **2. Covert Pickpocketing (/pickpocket)**
@@ -36,13 +33,10 @@ Designed for stealth-focused characters to lift gold without immediate detection
 Trigger: Player types /pickpocket in immediate proximity to a target.
 Distance: Must be in arm's reach (within 80 units).
 Mechanism:
-	The server rolls a d10.
-	
-	Failure (1-7): The theft fails. The victim is notified: "You feel a hand in your pocket!"
-	
-	Success (8-10): Silent transfer of 1% to 10% of the victim's gold.
-	
-	The Evidence: On a successful theft, the victim silently receives an item: "Torn Scrap of Paper." When read, it informs them they have lost gold, allowing for delayed RP discovery.
+1. The server rolls a d10.
+2. Failure (1-7): The theft fails. The victim is notified: "You feel a hand in your pocket!"
+3. Success (8-10): Silent transfer of 1% to 10% of the victim's gold.
+4. The Evidence: On a successful theft, the victim silently receives an item: "Torn Scrap of Paper." When read, it informs them they have lost gold, allowing for delayed RP discovery.
 
 
 ## Technical Implementation
