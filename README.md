@@ -1,6 +1,6 @@
 # KO_Criminal
 
-This README.md is designed to be professional, clear, and ready to present to the Keizaal Online development team. It frames the mod as a "Criminal Activity Expansion" for their specific SkyMP environment.
+"Criminal Activity Expansion" for the Keizaal Online environment.
 
 Keizaal Online: Criminal Activity Expansion
 Player-to-Player Robbery & Pickpocketing System
