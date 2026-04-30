@@ -15,9 +15,7 @@ To enhance the roleplay (RP) ecosystem by providing a scripted, synchronized met
 
 
 ## Functionality
-**1. Overt Robbery (/rob)**
-   
-Designed for "Stand and Deliver" roleplay scenarios where a player is physically threatened.
+**1. Overt Robbery (/rob)** - Designed for "Stand and Deliver" roleplay scenarios where a player is physically threatened.
 
 **Trigger:** Player types /rob in close proximity to another player.
 
@@ -30,9 +28,7 @@ Designed for "Stand and Deliver" roleplay scenarios where a player is physically
 3. If the victim yields, a random 1% to 10% of their gold is transferred to the robber.
 4. If the victim resists, a global message broadcasts the conflict, initiating PvP.
 
-**2. Covert Pickpocketing (/pickpocket)**
-   
-Designed for stealth-focused characters to lift gold without immediate detection.
+**2. Covert Pickpocketing (/pickpocket)** - Designed for stealth-focused characters to lift gold without immediate detection.
 
 **Trigger:** Player types /pickpocket in immediate proximity to a target.
 
