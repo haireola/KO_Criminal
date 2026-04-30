@@ -18,13 +18,9 @@ To enhance the roleplay (RP) ecosystem by providing a scripted, synchronized met
 **1. Overt Robbery (/rob)**
    
 	Designed for "Stand and Deliver" roleplay scenarios where a player is physically threatened.
-
-	**Trigger:** Player types /rob in close proximity to another player.
-
-	**Distance:** Must be face-to-face (within 150 units).
-
-	**Mechanism:**
-
+	Trigger: Player types /rob in close proximity to another player.
+	Distance: Must be face-to-face (within 150 units).
+	Mechanism:
 		The Robber selects a target from a nearby-player dropdown.
 		The Victim receives a UI Popup: "Yield and Pay" or "Resist and Fight."
 		If the victim yields, a random 1% to 10% of their gold is transferred to the robber.
@@ -33,13 +29,9 @@ To enhance the roleplay (RP) ecosystem by providing a scripted, synchronized met
 **2. Covert Pickpocketing (/pickpocket)**
    
 	Designed for stealth-focused characters to lift gold without immediate detection.
-
-	**Trigger:** Player types /pickpocket in immediate proximity to a target.
-
-	**Distance:** Must be in arm's reach (within 80 units).
-
-	**Mechanism:**
-
+	Trigger: Player types /pickpocket in immediate proximity to a target.
+	Distance: Must be in arm's reach (within 80 units).
+	Mechanism:
 		The server rolls a d10.
 		Failure (1-7): The theft fails. The victim is notified: "You feel a hand in your pocket!"
 		Success (8-10): Silent transfer of 1% to 10% of the victim's gold.
