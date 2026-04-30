@@ -49,7 +49,8 @@ To enhance the roleplay (RP) ecosystem by providing a scripted, synchronized met
 
 		Success (8-10): Silent transfer of 1% to 10% of the victim's gold.
 
-		The Evidence: On a successful theft, the victim silently receives an item: "Torn Scrap of Paper." When read, it informs them they have lost gold, allowing for delayed RP discovery.
+		The Evidence: On a successful theft, the victim silently receives an item: "Torn Scrap of Paper." 
+		When read, it informs them they have lost gold, allowing for delayed RP discovery.
 
 
 ## Technical Implementation
